@@ -6,7 +6,7 @@ public class Main {
 
 		Persona pers = new Persona();
 		Prueba p = new Prueba();
-		System.out.println(p.cambiarNombre(pers));
+		p.cambiarNombre(pers);
 		
 	}
 
