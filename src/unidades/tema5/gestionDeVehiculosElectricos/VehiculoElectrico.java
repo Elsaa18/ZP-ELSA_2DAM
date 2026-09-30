@@ -19,7 +19,7 @@ public class VehiculoElectrico {
 	}
 
 	public void cargar() {
-		System.out.println("Cargando bicicleta electrica...");
+		System.out.println("Cargando vehiculo electrica...");
 	}
 	
 	

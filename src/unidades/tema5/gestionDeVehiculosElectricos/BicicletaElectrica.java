@@ -8,6 +8,7 @@ public class BicicletaElectrica extends VehiculoElectrico{
 		super(marca, modelo, autonomia);
 		this.tienePedales = tienePedales;
 	}
+
 	
 	@Override
 	public void mostrarInformacion() {
