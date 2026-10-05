@@ -13,8 +13,9 @@ public class Ejemplo3 {
             listado.forEach(System.out::println);
         }
 
-        // Recorrer TODO el árbol de subdirectorios (recursivo)
+        //Te da un listado con las rutas de los archivos que halla en la carpeta "catalogo" pero si son carpetas te da el nombre y lo que halla dentro 
         try (Stream<Path> arbol = Files.walk(raiz)) {
+        	//filtra para solo mostrar archivos y no carpetas y los va llamando temporalmente p para irlos imprimiendo
             arbol.filter(Files::isRegularFile).forEach(p -> System.out.println("Fichero encontrado: " + p));
         }
     }
