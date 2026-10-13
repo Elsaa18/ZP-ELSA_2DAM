@@ -1,4 +1,4 @@
-package DAM2.tema1.ejercicios.ejercicio0;
+package DAM2.tema1.ejercicios;
 
 import java.io.IOException;
 import java.nio.file.*;

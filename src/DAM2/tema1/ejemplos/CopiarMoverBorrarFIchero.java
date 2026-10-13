@@ -3,7 +3,7 @@ package DAM2.tema1.ejemplos;
 import java.nio.file.*;
 import java.io.IOException;
 
-public class Ejemplo2 {
+public class CopiarMoverBorrarFIchero {
     public static void main(String[] args) throws IOException {
         Path origen  = Path.of("/home/diurno/eclipse-workspace/ZP_ELSA_2DAM/src/DAM2/tema1/ejemplos/catalogo/config.txt");
         Path copia   = Path.of("/home/diurno/eclipse-workspace/ZP_ELSA_2DAM/src/DAM2/tema1/ejemplos/catalogo/config_copia.txt");

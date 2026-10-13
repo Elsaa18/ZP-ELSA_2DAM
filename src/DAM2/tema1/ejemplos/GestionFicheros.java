@@ -4,7 +4,7 @@ import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Path;
 
-public class Ejemplo1 {
+public class GestionFicheros {
     public static void main(String[] args) {
     	//Dibuja la ruta donde va a poner la carpeta catalogo(si solo pusiera una ruta ya creada no haria nada pero al añadir catalogo que no existe luego podra añadir la carpeta)
         Path carpetaCatalogo = Path.of("/home/diurno/eclipse-workspace/ZP_ELSA_2DAM/src/DAM2/tema1/ejemplos/catalogo");

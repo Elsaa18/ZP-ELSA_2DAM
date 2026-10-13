@@ -4,7 +4,7 @@ import java.nio.file.*;
 import java.io.IOException;
 import java.util.stream.Stream;
 
-public class Ejemplo3 {
+public class ListarFicheros {
     public static void main(String[] args) throws IOException {
         Path raiz = Path.of("/home/diurno/eclipse-workspace/ZP_ELSA_2DAM/src/DAM2/tema1/ejemplos/catalogo");
 

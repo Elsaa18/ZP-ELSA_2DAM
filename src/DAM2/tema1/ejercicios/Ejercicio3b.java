@@ -1,4 +1,4 @@
-package DAM2.tema1.ejercicios.ejercicio3b;
+package DAM2.tema1.ejercicios;
 
 /*
 EJERCICIO 3b
